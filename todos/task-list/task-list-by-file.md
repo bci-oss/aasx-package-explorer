@@ -170,8 +170,8 @@ Michael Hoffmeister,
 
 ## AasxCsharpLibrary\AdminShell.cs
 
-[Line 1232, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L1232
+[Line 1291, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L1291
 ), 
 MIHO,
 2020-08-30
@@ -179,32 +179,32 @@ MIHO,
     this does not prevent the corner case, that we could have
     * multiple dataSpecificationIEC61360 in this list, which would be an error
 
-[Line 2995, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2995
+[Line 3132, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3132
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [1..1][1..n]
 
-[Line 2999, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L2999
+[Line 3136, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3136
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [0..1][1..n]
 
-[Line 3030, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3030
+[Line 3167, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3167
 ), 
 MIHO,
 2020-08-27
 
     According to spec, cardinality is [0..1][1..n]
 
-[Line 3309, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3309
+[Line 3446, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L3446
 ), 
 MIHO,
 2020-08-30
@@ -212,24 +212,32 @@ MIHO,
     align wording of the member ("embeddedDataSpecification") with the 
     * wording of the other entities ("hasDataSpecification")
 
-[Line 4010, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4010
+[Line 4158, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4158
 ), 
 MIHO,
 2020-08-26
 
     not very elegant, yet. Avoid temporary collection
 
-[Line 4695, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4695
+[Line 4887, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L4887
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     check, if Json has Qualifiers or not
 
-[Line 5482, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L5482
+[Line 5295, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L5295
+), 
+MIHO,
+2021-07-08
+
+    obvious error .. info should receive semanticId .. but would change
+
+[Line 5709, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShell.cs#L5709
 ), 
 MIHO,
 2020-07-31
@@ -238,40 +246,40 @@ MIHO,
 
 ## AasxCsharpLibrary\AdminShellPackageEnv.cs
 
-[Line 278, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L278
+[Line 290, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L290
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 464, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L464
+[Line 476, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L476
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 507, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L507
+[Line 519, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L519
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 542, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L542
+[Line 554, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L554
 ), 
 Michael Hoffmeister,
 2020-08-01
 
     use a unified function to create a serializer
 
-[Line 596, column 37](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L596
+[Line 608, column 37](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxCsharpLibrary/AdminShellPackageEnv.cs#L608
 ), 
 MIHO,
 2021-01-02
@@ -322,16 +330,16 @@ krahlro-sick,
 
 ## AasxDictionaryImport\Eclass\Model.cs
 
-[Line 394, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Eclass/Model.cs#L394
+[Line 395, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Eclass/Model.cs#L395
 ), 
 krahlro-sick,
 2021-02-03
 
     HTML-decode SI code
 
-[Line 819, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Eclass/Model.cs#L819
+[Line 820, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxDictionaryImport/Eclass/Model.cs#L820
 ), 
 krahlro-sick,
 2021-02-23
@@ -374,15 +382,345 @@ MIHO,
 
     extend Parse() to parse also ECLASS, IEC CDD
 
+## AasxIntegrationBase\AasxPluginOptionSerialization.cs
+
+[Line 127, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxIntegrationBase/AasxPluginOptionSerialization.cs#L127
+), 
+MIHO,
+2021-06-06
+
+    move code to AasForms source file
+
+## AasxIntegrationBaseWpf\EmptyFlyout.xaml.cs
+
+[Line 35, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxIntegrationBaseWpf/EmptyFlyout.xaml.cs#L35
+), 
+MIHO,
+2020-12-21
+
+    make DiaData non-Nullable
+
+## AasxMqttClient\MqttClient.cs
+
+[Line 124, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxMqttClient/MqttClient.cs#L124
+), 
+MIHO,
+2021-06-30
+
+    check use of Url()
+
 ## AasxPackageExplorer.Tests\TestOptionsAndPlugins.cs
 
-[Line 173, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageExplorer.Tests/TestOptionsAndPlugins.cs#L173
+[Line 174, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageExplorer.Tests/TestOptionsAndPlugins.cs#L174
 ), 
 mristin,
 2020-11-13
 
     @MIHO please check -- Options should be null, not empty?
+
+[Line 298, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageExplorer.Tests/TestOptionsAndPlugins.cs#L298
+), 
+Marko Ristin,
+2021-07-09
+
+    not clear, how this test could pass. As of today,
+
+[Line 302, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageExplorer.Tests/TestOptionsAndPlugins.cs#L302
+), 
+Marko Ristin,
+2021-07-09
+
+    could not fix
+
+## AasxPackageExplorer\Flyout\MqttPublisherFlyout.xaml.cs
+
+[Line 36, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageExplorer/Flyout/MqttPublisherFlyout.xaml.cs#L36
+), 
+MIHO,
+2020-12-21
+
+    make DiaData non-Nullable
+
+## AasxPackageExplorer\MainWindow.xaml.cs
+
+[Line 310, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageExplorer/MainWindow.xaml.cs#L310
+), 
+MIHO,
+2020-12-31
+
+    check for ANYUI MIHO
+
+[Line 1979, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageExplorer/MainWindow.xaml.cs#L1979
+), 
+MIHO,
+2021-06-08
+
+    find the root cause instead of doing a quick-fix
+
+## AasxPackageLogic\DispEditHelperBasics.cs
+
+[Line 1143, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/DispEditHelperBasics.cs#L1143
+), 
+MIHO,
+2020-12-21
+
+    function & if-clause is obsolete
+
+[Line 1300, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/DispEditHelperBasics.cs#L1300
+), 
+Michael Hoffmeister,
+2020-08-01
+
+    possibly [Jump] button??
+
+[Line 1476, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/DispEditHelperBasics.cs#L1476
+), 
+MIHO,
+2021-02-16
+
+    this mechanism is ugly and only intended to be temporary!
+    It shall be replaced (after intergrating AnyUI) by a better repo handling
+
+[Line 1498, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/DispEditHelperBasics.cs#L1498
+), 
+Michael Hoffmeister,
+2020-08-01
+
+    Needs to be revisited
+
+## AasxPackageLogic\DispEditHelperCopyPaste.cs
+
+[Line 339, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/DispEditHelperCopyPaste.cs#L339
+), 
+MIHO,
+2021-06-22
+
+    think of converting Referable to IAasElement
+
+[Line 563, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/DispEditHelperCopyPaste.cs#L563
+), 
+Michael Hoffmeister,
+2020-08-01
+
+    Operation complete?
+
+[Line 599, column 33](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/DispEditHelperCopyPaste.cs#L599
+), 
+Michael Hoffmeister,
+2020-08-01
+
+    Operation complete?
+
+## AasxPackageLogic\DispEditHelperEntities.cs
+
+[Line 1723, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/DispEditHelperEntities.cs#L1723
+), 
+MIHO,
+2020-09-01
+
+    extend the lines below to cover also data spec. for units
+
+[Line 3391, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/DispEditHelperEntities.cs#L3391
+), 
+MIHO,
+2021-02-16
+
+    this mechanism is ugly and only intended to be temporary!
+    It shall be replaced (after intergrating AnyUI) by a better repo handling
+
+## AasxPackageLogic\DispEditHelperMultiElement.cs
+
+[Line 374, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/DispEditHelperMultiElement.cs#L374
+), 
+MIHO,
+2021-07-08
+
+    check for completeness
+
+## AasxPackageLogic\ModifyRepo.cs
+
+[Line 24, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/ModifyRepo.cs#L24
+), 
+MIHO,
+2021-06-28
+
+    eliminate ModifyRepo. Right now, it is used as boolean flag while editing
+
+## AasxPackageLogic\PackageCentral\PackageCentral.cs
+
+[Line 257, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageCentral.cs#L257
+), 
+MIHO,
+2021-01-07
+
+    rename to plural
+
+## AasxPackageLogic\PackageCentral\PackageConnectorHttpRest.cs
+
+[Line 233, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageConnectorHttpRest.cs#L233
+), 
+all,
+2021-01-30
+
+    check periodically for supported element types
+
+[Line 288, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageConnectorHttpRest.cs#L288
+), 
+MIHO,
+2021-01-03
+
+    check to handle more SMEs for AasEventMsgUpdateValue
+
+[Line 289, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageConnectorHttpRest.cs#L289
+), 
+MIHO,
+2021-01-04
+
+    ValueIds still missing ..
+
+[Line 717, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageConnectorHttpRest.cs#L717
+), 
+MIHO,
+2021-05-21
+
+    make sure, this is required by the specification!
+
+[Line 789, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageConnectorHttpRest.cs#L789
+), 
+MIHO,
+2021-05-28
+
+    implmenent
+
+[Line 798, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageConnectorHttpRest.cs#L798
+), 
+MIHO,
+2021-05-28
+
+    implmenent
+
+[Line 807, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageConnectorHttpRest.cs#L807
+), 
+MIHO,
+2021-05-28
+
+    implmenent
+
+## AasxPackageLogic\PackageCentral\PackageContainerBase.cs
+
+[Line 392, column 29](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageContainerBase.cs#L392
+), 
+MIHO,
+2021-01-03
+
+    check to handle more SMEs for AasEventMsgUpdateValue
+
+## AasxPackageLogic\PackageCentral\PackageContainerBuffered.cs
+
+[Line 65, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageContainerBuffered.cs#L65
+), 
+MIHO,
+2020-12-25
+
+    think of creating a temp file which resemebles the source file
+
+## AasxPackageLogic\PackageCentral\PackageContainerFactory.cs
+
+[Line 155, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageContainerFactory.cs#L155
+), 
+MIHO,
+2021-02-01
+
+    check, if demo option is still required
+
+## AasxPackageLogic\PackageCentral\PackageContainerListBase.cs
+
+[Line 324, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageContainerListBase.cs#L324
+), 
+MIHO,
+2020-08-05
+
+    refacture this with DispEditHelper.cs
+
+## AasxPackageLogic\PackageCentral\PackageContainerListHttpRestRepository.cs
+
+[Line 106, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageContainerListHttpRestRepository.cs#L106
+), 
+MIHO,
+2021-01-08
+
+    check, how to make absolute
+
+## AasxPackageLogic\PackageCentral\PackageContainerLocalFile.cs
+
+[Line 143, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageContainerLocalFile.cs#L143
+), 
+MIHO,
+2020-12-15
+
+    consider removing "indirectLoadSave" from AdminShellPackageEnv
+
+## AasxPackageLogic\PackageCentral\PackageContainerRepoItem.cs
+
+[Line 122, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/PackageCentral/PackageContainerRepoItem.cs#L122
+), 
+MIHO,
+2021-01-08
+
+    add SubmodelIds
+
+## AasxPackageLogic\VisualAasxElements.cs
+
+[Line 202, column 17](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/VisualAasxElements.cs#L202
+), 
+MIHO,
+2020-07-31
+
+    check if commented out because of non-working multi-select?
+
+[Line 2191, column 25](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxPackageLogic/VisualAasxElements.cs#L2191
+), 
+MIHO,
+2021-06-11
+
+    Submodel needs to be set in the long run
 
 ## AasxPluginPlotting\PlottingViewControl.xaml.cs
 
@@ -642,10 +980,20 @@ Michael Hoffmeister,
 
     Fraunhofer IOSB: Check ReSharper settings to be OK
 
+## AasxWpfControlLibrary\AnyUiWpf.cs
+
+[Line 958, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/AnyUiWpf.cs#L958
+), 
+MIHO,
+2020-12-21
+
+    can be realized without tedious central dispatch?
+
 ## AasxWpfControlLibrary\DiplayVisualAasxElements.xaml.cs
 
-[Line 346, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DiplayVisualAasxElements.xaml.cs#L346
+[Line 488, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DiplayVisualAasxElements.xaml.cs#L488
 ), 
 MIHO,
 2021-01-04
@@ -653,8 +1001,8 @@ MIHO,
     check to replace all occurences of RefreshFromMainData() by
     * making the tree-items ObservableCollection and INotifyPropertyChanged
 
-[Line 660, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DiplayVisualAasxElements.xaml.cs#L660
+[Line 804, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DiplayVisualAasxElements.xaml.cs#L804
 ), 
 MIHO,
 2020-07-21
@@ -663,233 +1011,131 @@ MIHO,
 
 ## AasxWpfControlLibrary\DispEditAasxEntity.xaml.cs
 
-[Line 1577, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L1577
+[Line 157, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L157
 ), 
 MIHO,
-2020-09-01
+2020-12-24
 
-    extend the lines below to cover also data spec. for units
+    check if required
 
-[Line 3184, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditAasxEntity.xaml.cs#L3184
+## AasxWpfControlLibrary\Flyouts\ChangeElementAttributesFlyout.xaml.cs
+
+[Line 35, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/Flyouts/ChangeElementAttributesFlyout.xaml.cs#L35
 ), 
 MIHO,
-2021-02-16
+2020-12-21
 
-    this mechanism is ugly and only intended to be temporary!
-    It shall be replaced (after intergrating AnyUI) by a better repo handling
+    make DiaData non-Nullable
 
-## AasxWpfControlLibrary\DispEditHelperBasics.cs
+## AasxWpfControlLibrary\Flyouts\ProgressBarFlyout.xaml.cs
 
-[Line 1336, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1336
-), 
-Michael Hoffmeister,
-2020-08-01
-
-    possibly [Jump] button??
-
-[Line 1512, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1512
+[Line 35, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/Flyouts/ProgressBarFlyout.xaml.cs#L35
 ), 
 MIHO,
-2021-02-16
+2020-12-21
 
-    this mechanism is ugly and only intended to be temporary!
-    It shall be replaced (after intergrating AnyUI) by a better repo handling
+    make DiaData non-Nullable
 
-[Line 1532, column 25](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperBasics.cs#L1532
-), 
-Michael Hoffmeister,
-2020-08-01
+## AasxWpfControlLibrary\Flyouts\SelectAasEntityFlout.xaml.cs
 
-    Needs to be revisited
-
-## AasxWpfControlLibrary\DispEditHelperCopyPaste.cs
-
-[Line 227, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperCopyPaste.cs#L227
-), 
-Michael Hoffmeister,
-2020-08-01
-
-    Operation mssing here?
-
-[Line 249, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/DispEditHelperCopyPaste.cs#L249
-), 
-Michael Hoffmeister,
-2020-08-01
-
-    Operation mssing here?
-
-## AasxWpfControlLibrary\PackageCentral\PackageCentral.cs
-
-[Line 258, column 9](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageCentral.cs#L258
+[Line 38, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/Flyouts/SelectAasEntityFlout.xaml.cs#L38
 ), 
 MIHO,
-2021-01-07
+2020-12-21
 
-    rename to plural
+    make DiaData non-Nullable
 
-## AasxWpfControlLibrary\PackageCentral\PackageConnectorHttpRest.cs
+## AasxWpfControlLibrary\Flyouts\SelectFromListFlyout.xaml.cs
 
-[Line 234, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageConnectorHttpRest.cs#L234
-), 
-all,
-2021-01-30
-
-    check periodically for supported element types
-
-[Line 289, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageConnectorHttpRest.cs#L289
+[Line 40, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/Flyouts/SelectFromListFlyout.xaml.cs#L40
 ), 
 MIHO,
-2021-01-03
+2020-12-21
 
-    check to handle more SMEs for AasEventMsgUpdateValue
+    make DiaData non-Nullable
 
-[Line 290, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageConnectorHttpRest.cs#L290
+## AasxWpfControlLibrary\Flyouts\SelectFromReferablesPoolFlyout.xaml.cs
+
+[Line 42, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/Flyouts/SelectFromReferablesPoolFlyout.xaml.cs#L42
 ), 
 MIHO,
-2021-01-04
+2020-12-21
 
-    ValueIds still missing ..
+    make DiaData non-Nullable
 
-[Line 716, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageConnectorHttpRest.cs#L716
+## AasxWpfControlLibrary\Flyouts\SelectQualifierPresetFlyout.xaml.cs
+
+[Line 41, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/Flyouts/SelectQualifierPresetFlyout.xaml.cs#L41
 ), 
 MIHO,
-2021-05-21
+2020-12-21
 
-    make sure, this is required by the specification!
+    make DiaData non-Nullable
 
-[Line 788, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageConnectorHttpRest.cs#L788
+## AasxWpfControlLibrary\Flyouts\TextBoxFlyout.xaml.cs
+
+[Line 35, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/Flyouts/TextBoxFlyout.xaml.cs#L35
 ), 
 MIHO,
-2021-05-28
+2020-12-21
 
-    implmenent
+    make DiaData non-Nullable
 
-[Line 797, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageConnectorHttpRest.cs#L797
+## AasxWpfControlLibrary\Flyouts\TextEditorFlyout.xaml.cs
+
+[Line 37, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/Flyouts/TextEditorFlyout.xaml.cs#L37
 ), 
 MIHO,
-2021-05-28
+2020-12-21
 
-    implmenent
-
-[Line 806, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageConnectorHttpRest.cs#L806
-), 
-MIHO,
-2021-05-28
-
-    implmenent
-
-## AasxWpfControlLibrary\PackageCentral\PackageContainerBase.cs
-
-[Line 376, column 29](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerBase.cs#L376
-), 
-MIHO,
-2021-01-03
-
-    check to handle more SMEs for AasEventMsgUpdateValue
-
-## AasxWpfControlLibrary\PackageCentral\PackageContainerBuffered.cs
-
-[Line 66, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerBuffered.cs#L66
-), 
-MIHO,
-2020-12-25
-
-    think of creating a temp file which resemebles the source file
-
-## AasxWpfControlLibrary\PackageCentral\PackageContainerFactory.cs
-
-[Line 155, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerFactory.cs#L155
-), 
-MIHO,
-2021-02-01
-
-    check, if demo option is still required
-
-## AasxWpfControlLibrary\PackageCentral\PackageContainerListBase.cs
-
-[Line 321, column 9](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerListBase.cs#L321
-), 
-MIHO,
-2020-08-05
-
-    refacture this with DispEditHelper.cs
-
-## AasxWpfControlLibrary\PackageCentral\PackageContainerListHttpRestRepository.cs
-
-[Line 107, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerListHttpRestRepository.cs#L107
-), 
-MIHO,
-2021-01-08
-
-    check, how to make absolute
+    make DiaData non-Nullable
 
 ## AasxWpfControlLibrary\PackageCentral\PackageContainerListOfListControl.xaml.cs
 
-[Line 121, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerListOfListControl.xaml.cs#L121
+[Line 123, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerListOfListControl.xaml.cs#L123
 ), 
 MIHO,
 2021-01-09
 
     check to use moveup/down of the PackageContainerListBase
 
-[Line 132, column 21](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerListOfListControl.xaml.cs#L132
+[Line 134, column 21](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerListOfListControl.xaml.cs#L134
 ), 
 MIHO,
 2021-01-09
 
     check to use moveup/down of the PackageContainerListBase
 
-## AasxWpfControlLibrary\PackageCentral\PackageContainerLocalFile.cs
+## AnyUi\AnyUiContextBase.cs
 
-[Line 143, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerLocalFile.cs#L143
+[Line 139, column 9](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AnyUi/AnyUiContextBase.cs#L139
 ), 
 MIHO,
-2020-12-15
+2020-12-24
 
-    consider removing "indirectLoadSave" from AdminShellPackageEnv
+    check if to move/ refactor these functions
 
-## AasxWpfControlLibrary\PackageCentral\PackageContainerRepoItem.cs
+## BlazorUI\Program.cs
 
-[Line 122, column 9](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/PackageCentral/PackageContainerRepoItem.cs#L122
+[Line 193, column 13](
+https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/BlazorUI/Program.cs#L193
 ), 
 MIHO,
-2021-01-08
+2021-06-07
 
-    add SubmodelIds
-
-## AasxWpfControlLibrary\VisualAasxElements.cs
-
-[Line 167, column 17](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/AasxWpfControlLibrary/VisualAasxElements.cs#L167
-), 
-MIHO,
-2020-07-31
-
-    check if commented out because of non-working multi-select?
+    how to initialize?
 
 ## WpfMtpControl\MtpAmlHelper.cs
 
