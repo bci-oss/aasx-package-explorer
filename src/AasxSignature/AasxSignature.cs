@@ -98,6 +98,8 @@ namespace AasxSignature
                         new Uri("/", UriKind.Relative), PackageRelationshipSelectorType.Type,
                         "http://schemas.openxmlformats.org/package/2006/relationships/digital-signature/origin"));
 
+                // this is a useless comment to test committing and pushing
+
                 // Sign() will prompt the user to select a Certificate to sign with.
                 try
                 {
