@@ -99,6 +99,7 @@ namespace AasxSignature
                         "http://schemas.openxmlformats.org/package/2006/relationships/digital-signature/origin"));
 
                 // this is a useless comment to test committing and pushing
+                // this is another useless comment
 
                 // Sign() will prompt the user to select a Certificate to sign with.
                 try
