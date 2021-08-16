@@ -1127,16 +1127,6 @@ MIHO,
 
     check if to move/ refactor these functions
 
-## BlazorUI\Program.cs
-
-[Line 193, column 13](
-https://github.com/admin-shell-io/aasx-package-explorer/blob/master/src/BlazorUI/Program.cs#L193
-), 
-MIHO,
-2021-06-07
-
-    how to initialize?
-
 ## WpfMtpControl\MtpAmlHelper.cs
 
 [Line 51, column 13](

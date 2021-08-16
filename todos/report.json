@@ -1128,18 +1128,6 @@
     ]
   },
   {
-    "path": "BlazorUI\\Program.cs",
-    "records": [
-      {
-        "prefix": "TODO",
-        "suffix": " (MIHO, 2021-06-07): how to initialize?",
-        "line": 192,
-        "column": 12,
-        "status": "ok"
-      }
-    ]
-  },
-  {
     "path": "WpfMtpControl\\MtpAmlHelper.cs",
     "records": [
       {
